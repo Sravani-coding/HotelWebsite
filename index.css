@@ -1,0 +1,804 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+ .logo{
+     color:orangered;
+ }
+ .logo:hover{
+  color: yellow;
+  font-style: italic;
+ }
+ .homebg{
+     background: url(./images/allback.jpg);
+ }
+ h2{
+     flex: 1;
+     color: #fff;
+     font-style: italic;
+ }
+ h2:hover{
+     /* color: rgba(105, 255, 255, 0.849); */
+     font-style: normal;
+     /* border-bottom: 2px solid orangered; */
+     border-radius: 5px;
+     color: orangered;
+ }
+ h5{
+     flex: 1;
+     color: #fff;
+     font-style: italic;
+ }
+ 
+ .border1{
+     padding-left: 15%;
+ }
+ h5:hover{
+     /* color: rgba(105, 255, 255, 0.849); */
+     font-size: 20px; 
+     font-style: normal;
+     /* border-bottom: 2px solid orangered; */
+     border-radius: 5px;
+     color: orangered;
+ }
+ div.navbar{
+     background: transparent;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ 
+ }
+ .alink{
+     color:#fff;
+     font-style: italic;
+     font-weight: 100;
+ }
+ .alink:hover{
+     font-size: 20px; 
+      font-weight: 10px bold;
+     font-style: normal;
+     border-bottom: 2px solid orangered;
+ }
+ .alink1{
+     color: #fff;
+     /* background-color: black; */
+     border-radius: 5px solid green;
+ }
+ 
+ .carousel{
+     width: 100%;
+     height: 100%;
+ }
+ .special{
+     color: black;
+      border-bottom: 2px solid green;
+ }
+ .logsra{
+     padding-left: 60%;
+     
+ 
+ 
+ }
+ 
+ 
+ .jumboimg{
+     width:70%;
+     height: 40%;
+ }
+ .img-thumbnail{
+     padding: 2% 2% 2% 2%;
+     background-color:whitesmoke;
+     border-radius: 2%;
+ }
+ .img-thumbnail:hover{
+     padding: 3% 3% 3% 3%;
+     
+ }
+ 
+ .tri{
+     color: black;
+     padding-left: 11%;
+     padding-top: 2%;
+     font-family: 'Times New Roman', Times, serif;
+     font-style: italic;
+     font-size: large;
+     font-weight: bold;
+     
+     background-size: cover;
+ }
+    /* =============================================about csss=================================== */
+ 
+    .aboutbg {
+     margin: 0;
+     font-family: Arial, Helvetica, sans-serif;
+     background: url("./images/allback.jpg");
+   }
+   
+   
+  .image1{
+     border-left: 10px;
+     float: right;
+     width: 30%;
+     height: 40%
+ }
+ .paras {
+     /* border: 1px solid green;  */
+      background-color: #fefcdb;  
+      /* opacity: 0.6; */
+     text-align: center;
+     padding-top: 50px;
+     padding-right: 50px;
+     padding-bottom: 50px;
+     padding-left: 50px;
+     color:black;
+     font-weight: bold;
+   }
+   .paras1{
+      /* border: 1px solid green;  */
+     background-color: rgb(218, 184, 184); 
+     /* opacity: 0.6;  */
+     text-align: center;
+     font-weight: bold;
+     padding-top: 50px;
+     padding-right: 50px;
+     padding-bottom: 50px;
+     padding-left: 50px;
+     color: black;
+ 
+ }
+ .paras2{
+      /* border: 1px solid green;  */
+       background-color: rgb(196, 235, 188);  
+      /* opacity: 0.6; */
+     text-align: center;
+     font-weight: bold;
+     padding-top: 50px;
+     padding-right: 50px;
+     padding-bottom: 50px;
+     padding-left: 50px;
+     color: black;
+  }
+  .paras3{
+     /* border: 1px solid black; */
+     background-color: rgb(231, 195, 217);
+     /* opacity:0.6; */
+     text-align: center;
+     font-weight: bold;
+ 
+     padding-top: 50px;
+     padding-right: 50px;
+     padding-bottom: 50px;
+     padding-left: 50px;
+     color:black;
+   }
+   .philo{
+       font-weight: bolder;
+       justify-content: center;
+       font-size: x-large;
+       display: flex;
+       color: black;
+       padding-top: 1px;
+       text-decoration:underline;
+ 
+   }
+   /* .philo:hover{
+     border-bottom: 2px solid green;
+   } */
+   .imglast{
+     border: 2px solid black;
+     background: url(./images/sra7.jpg);
+     /* opacity: 0.6; */
+     stroke-opacity: initial;
+     border-radius: 2%;
+ 
+   }
+   .best{
+     background-color: rgb(131, 122, 122);
+     justify-content: center;
+     font-family: 'Times New Roman', Times, serif;
+     display: flex;
+     font-size: large;
+     font-weight: bolder;
+     padding-top: 5px;
+     color: orangered;
+ }
+ .imglast{
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+ 
+ }
+ .imglast:hover{
+     transform: scaleX(-1);
+ 
+ }
+ 
+ 
+ 
+ /* ======================================Gallery================================================== */
+ .sra{
+     width: 100%;
+     height: 40%;
+     padding-top: 100px;
+ }
+ 
+ 
+ .headig{
+     display: inline;
+     text-align: center;
+     justify-content: center;
+     font-style: italic;
+     
+ }
+ .gallerybg{
+ background: url(./images/allback.jpg);
+ 
+ }
+ .imagee{
+    width: 100%;
+    height: 5%; 
+ }
+ .imgfirst{
+     width: 100%;
+     height: 110%;
+     border-radius: 5%;
+     border-style: groove;
+     box-sizing: border-box;
+ }
+ .imgfirst:hover{
+     box-shadow: 0cqmax;
+     mask-border-slice: 2;
+     
+ }
+ .parax{
+     justify-content: center;
+     display: flex;
+     color: black;
+     text-shadow: #fefcdb;
+     font-weight: bold;
+ }
+ .Starters{
+     padding-top: 6%;
+     color: black;
+     font-weight: bold;
+     font-style: italic;
+     display: flex;
+     justify-content: center;
+     font-size: large;
+     
+ }
+ .imgfirst1{
+     width: 100%;
+     height: 80%;
+     border-radius: 5%;
+     border-style: groove;
+     box-sizing: border-box;
+ }
+ .imgfirst2{
+     width: 100%;
+     height: 65%;
+     border-radius: 5%;
+     border-style: groove;
+     box-sizing: border-box;
+ }
+ .Beverages{
+     
+     padding-top: 0%;
+     color: black;
+     font-weight: bold;
+     font-style: italic;
+     display: flex;
+     justify-content: center;
+     font-size: large;  
+ }
+ .imgfirst3{
+     width: 100%;
+     height: 85%;
+     border-radius: 5%;
+     border-style: groove;
+     box-sizing: border-box;
+ }
+ .imgfirst4{
+     width: 100%;
+     height: 85%;
+     border-radius: 5%;
+     border-style: groove;
+     box-sizing: border-box;
+ }
+ .Appetizers{
+     
+     padding-top: 5%;
+     color: black;
+     font-weight: bold;
+     font-style: italic;
+     display: flex;
+     justify-content: center;
+     font-size: large;  
+ }
+ /* ==========================================MENU================================================ */
+ .imgmenu{
+     background: url(./images/allback.jpg);
+ 
+ } 
+ .menusra{
+     background-color:#c4f8b4;
+     border-radius: 50%;
+     border-bottom: 3px solid rgb(177, 207, 247);
+     color: black;
+     display: flex;
+     padding-top: 8%;
+     justify-content: center;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: large;
+     font-weight: bold;
+     text-decoration:underline wavy orangered;
+ }
+ .maa{
+     font-weight: bold;
+     padding-left: 5%;
+     font-weight: bolder; 
+     color: orangered;
+ }
+ .maa1{
+     padding-left: 5%;
+     font-weight: bold;
+ }
+ .maa2{
+     color: rgb(25, 138, 25);
+     font-weight: bold;
+     padding-left: 5%;
+     font-weight: bold;
+     font-size: large;
+ }
+ .pre1{
+     padding-left: 15%;
+     border: 0.2px solid green;
+     background: url(./images/about.webp) no-repeat ;
+     /* background-repeat: no-repeat; */
+     background-size: cover;
+     backdrop-filter: 4px;
+     background-position-x: right;
+     /* background-color: aliceblue; */
+     border-radius: 50% 10% 50% 10%;
+     order: 2;
+     
+ 
+ }
+ .pre2{
+     font-weight: bold;
+     color: black;
+     font-style: normal;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: large;
+     padding-left: 0%;
+     padding-top: 5%;
+ 
+     
+ }
+ .pre3{
+     font-weight: bold;
+     color: black;
+     font-style: normal;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: large;
+     padding-left: 5%;
+     padding-top: 5%;
+ 
+ }
+ .pre4{
+     color: black;
+     padding-left: 5%;
+     font-weight: bold;
+ }
+ .bol{
+     background-color: brown;
+     padding-right: 14%;
+     border-bottom: 2%;
+     color: white;
+     font-size: large;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ .p{
+     color: white;
+     background-color: brown;
+     padding-right: 20%;
+     font-weight: bold;
+     font-family: 'Times New Roman', Times, serif;
+     padding-top: 5px;
+     
+ 
+ }
+ .me{
+  color: black;
+  font-weight: bold;
+ }
+ .p1{
+     padding-left: 20%;
+     color: white;
+     background-color: brown;
+     padding-right: 20%;
+     font-weight: bold;
+     font-family: 'Times New Roman', Times, serif;
+     padding-top: 5px;
+     padding-left: 6px;
+ }
+ .rows{
+  display: flex;
+  color:black;
+ }
+ .me1{
+     color: black;
+     font-weight: bold;
+ }
+ .topper{
+     color: black;
+     font-weight: bold;
+     background: url(./images/sra4.jpg);
+     width: 100%;
+     height: 5%;
+     font-family: 'Times New Roman', Times, serif;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     padding-left: 2%;
+     
+ 
+    }
+ .nihal{
+     width: 100%;
+     height:5%;
+     border-image-repeat: repeat;
+    }
+    /*=======================================Footer.html===================================================  */
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); 
+ 
+   . container{
+     max-width: 1170px;
+     margin:auto;
+     
+ }
+ .row{
+     display: flex;
+     flex-wrap: wrap;
+ }
+ ul{
+     list-style: none;
+ }
+ .footer{
+     background-color: #181815;
+     padding: 50px 0;
+     padding-bottom: 1%;
+     /* position: sticky;
+     top: 100%; */
+ }
+ 
+ .fopara{
+     color: white;
+ }
+ .list{
+     color: white;
+ }
+ .footer-col{
+    width: 25%;
+    padding: 0 15px;
+ }
+ .footer-col h4{
+     font-size: 18px;
+     color: white;
+     text-transform: capitalize;
+     margin-bottom: 35px;
+     font-weight: 500;
+     position: relative;
+ }
+ .footer-col h4::before{
+     content: '';
+     position: absolute;
+     left:0;
+     bottom: -10px;
+     background-color: orangered;
+     height: 2px;
+     box-sizing: border-box;
+     width: 50px;
+ }
+ .footer-col ul li:not(:last-child){
+     margin-bottom: 10px;
+ }
+ .footer-col ul li a{
+     font-size: 16px;
+     text-transform: capitalize;
+     color: white;
+     text-decoration: none;
+     font-weight: 300;
+     display: block;
+     transition: all 0.3s ease;
+ }
+ .footer-col ul li a:hover{
+     color: orangered;
+     padding-left: 8px;
+     font-size: large;
+ }
+ .footer-col .social-links a{
+     display: inline-block;
+     height: 40px;
+     width: 40px;
+     background-color: white;
+     margin:0 10px 10px 0;
+     text-align: center;
+     line-height: 40px;
+     border-radius: 50%;
+     color: black;
+     transition: all 0.5s ease;
+     justify-content: center;
+ }
+ .footer-col .social-links a:hover{
+     color: orangered;
+     background-color: rgb(170, 158, 158);
+ }
+ .myname{
+     color: white;
+     /* background-color: black; */
+     /* justify-content: center; */
+     align-content: center;
+     display: flex;
+     font-family: 'Times New Roman', Times, serif;
+     padding-bottom: 0%;
+     /* padding-top: 3%; */
+     justify-content: end;
+     padding-right: 7%;
+     text-decoration:underline wavy orangered;
+ 
+ }
+ 
+ 
+ /*responsive*/
+ @media(max-width: 767px){
+   .footer-col{
+     width: 50%;
+     margin-bottom: 30px;
+ }
+ }
+ @media(max-width: 574px){
+   .footer-col{
+     width: 100%;
+ }
+ }
+ /* ==============================================contact============================================ */
+ .cpara{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-weight: bold;
+     }
+  .chead{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: orangered;
+  } 
+  .contactbg{
+     background: url(./images/allback.jpg); no-repeat
+  }
+  .container1{
+     position: relative;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px 100px;
+ }
+ 
+ .container1:after{
+     content: '';
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     left: 0;
+     top: 0;
+     background-size: cover;
+     z-index: -1;
+ }
+ .contact-box{
+     max-width: 850px;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     background-color: #fff;
+     box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+ }
+ 
+ .left{
+     background: url("./images/contact2.jpg") no-repeat center;
+     background-size: cover;
+     height: 100%;
+ }
+ 
+ .right{
+     padding: 25px 40px;
+ }
+ 
+ h3{
+     position: relative;
+     padding: 0 0 10px;
+     margin-bottom: 10px;
+ }
+ 
+ h3:after{
+     content: '';
+     position: absolute;
+     left: 50%;
+     bottom: 0;
+     transform: translateX(-50%);
+     height: 4px;
+     width: 50px;
+     border-radius: 2px;
+     background-color: #2ecc71;
+ }
+ 
+ .field{
+     width: 100%;
+     border: 2px solid rgba(0, 0, 0, 0);
+     outline: none;
+     background-color: rgba(230, 230, 230, 0.6);
+     padding: 0.5rem 1rem;
+     font-size: 1.1rem;
+     margin-bottom: 22px;
+     transition: .3s;
+ }
+ 
+ .field:hover{
+     background-color: rgba(0, 0, 0, 0.1);
+ }
+ 
+ textarea{
+     min-height: 150px;
+ }
+ 
+ .btn{
+     width: 100%;
+     padding: 0.5rem 1rem;
+     background-color: #2ecc71;
+     color: #fff;
+     font-size: 1.1rem;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     transition: .3s;
+ }
+ 
+ .btn:hover{
+     background-color: #27ae60;
+ }
+ 
+ .field:focus{
+     border: 2px solid rgba(30,85,250,0.47);
+     background-color: #fff;
+ }
+ 
+ @media screen and (max-width: 880px){
+     .contact-box{
+         grid-template-columns: 1fr;
+     }
+     .left{
+         height: 200px;
+     }
+ }
+  .call{
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+     color:black;
+     background-color:orangered;
+     border-radius: 2%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 3%;
+     padding-bottom: 2%;
+     background: url(./images/about5.jpg);
+  }
+  /* ==============================login.css===================================================== */
+  
+ .bodylogin{
+     display:flex;
+     justify-content:center;
+     align-items: center;
+     min-height: 100vh;
+     background: url(./images/logback1.jpg)no-repeat;
+     background-size: cover;
+     background-position: center;
+ 
+ }
+ .wrapper{
+     width: 420px;
+    /* remove purple color here to get transparent */
+     color:#fff;
+     /* add border radius */
+     border-radius: 12px;
+     border: 2px solid rgba(255,255,255,.2);
+     /* add glass morphism effect */
+     backdrop-filter: blur(10px);
+     padding: 30px 40px ;
+ }
+ .wrapper h1{
+     font-size: 36px;
+     text-align: center;
+     }
+  .wrapper .input-box{
+     /* to move icons use positon */
+     position: relative;
+      width: 100%;
+      height: 50px;
+      /* background:yellow -we remove it after input-box inut*/
+      margin: 35px 0;
+ }
+ .input-box input{
+     width: 100%;
+     height: 100%;
+     background: transparent;
+     outline: none;
+     border: none;
+     border: 2px solid rgba(255,255,255,.2);
+     border-radius: 40px;  
+     color: white;  
+     padding: 20px 20px 20px 20px;
+ }
+ .input-box input::placeholder{
+     color: #fff;
+ }
+ .input-box i{
+         /* to move icons use positon */
+     position: absolute;
+     right: 20px;
+     top: 30%;
+     transform: translate(-50);
+     font-size: 20px;
+ }
+ .wrapper .remember-forgot{
+     display: flex;
+     justify-content:space-between;
+     font-size:14.5px ;
+     margin: -15px 0 15px;
+ }
+ .remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+ }
+ .remember-forgot a{
+     color: #fff;
+     text-decoration: none;
+ 
+ }
+ .remember-forgot a:hover{
+     text-decoration: underline;
+ 
+ }
+ .wrapper .btn{
+     width: 100%;
+     height: 45px;
+     background: #fff;
+     border: none;
+     outline: none;
+     border-radius: 40px;
+     box-shadow: 0 0 rgba(0 ,0, 0, .1);
+     cursor: pointer;
+     font-size: 16px;
+     color: #333;
+     font-weight: 600;
+ 
+ }
+ .wrapper .register-link{
+     font-size: 14.5px;
+     text-align: center;
+     margin-top: 20px ;
+ }
+ .register-link p a{
+     color: #fff;
+     text-decoration: none;
+     font-weight: 600;
+ }
+ .register-link p a:hover{
+     text-decoration: underline;
+ }
