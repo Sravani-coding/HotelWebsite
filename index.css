@@ -802,3 +802,11 @@
  .register-link p a:hover{
      text-decoration: underline;
  }
+ /* =============================names last======================= */
+ .friends{
+    padding-left: 80%;
+ }
+ .frndpara{
+text-align:left ;
+color: white;
+ }
